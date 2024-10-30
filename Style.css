@@ -1,7 +1,7 @@
 .brownie-container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
 }
 
 .brownies {
@@ -15,7 +15,7 @@
 
 .buttonsBox{
     display: flex;
-    justify-content: center;
+    justify-content: left;
 
 }
 
@@ -27,4 +27,20 @@
 
 .btn:hover{
     background-color: aliceblue;
+}
+
+.ticketAligner{
+    position: absolute; /* Allows positioning with top and right */
+    top: 10px;          /* Adjusts distance from the top */
+    right: 10px;        /* Adjusts distance from the right */
+    width: 50%;
+}
+
+.redeemBox {
+    border: black 2px solid;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 2px;
 }

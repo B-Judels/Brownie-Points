@@ -22,3 +22,18 @@ document.getElementById("btn100").addEventListener("click", function() {
     count += 100;
     document.getElementById("counter").innerHTML = `Points: ${count}`;
 });
+
+document.getElementById("redeem1").addEventListener("click", function() {
+    count -= 500;
+    document.getElementById("counter").innerHTML = `Points: ${count}`;
+});
+
+document.getElementById("redeem2").addEventListener("click", function() {
+    count -= 1000;
+    document.getElementById("counter").innerHTML = `Points: ${count}`;
+});
+
+document.getElementById("redeem3").addEventListener("click", function() {
+    count -= 1500;
+    document.getElementById("counter").innerHTML = `Points: ${count}`;
+});

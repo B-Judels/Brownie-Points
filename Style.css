@@ -1,3 +1,30 @@
+.brownie-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brownies {
+    width: 30%;
+    margin-right: 10px;
+}
+
+.brownieScore {
+    font-size: 24px;
+}
+
+.buttonsBox{
+    display: flex;
+    justify-content: center;
+
+}
+
 .btn {
     background-color: brown;
+    width: 10%;
+    border: black, 2px, solid;
+}
+
+.btn:hover{
+    background-color: aliceblue;
 }

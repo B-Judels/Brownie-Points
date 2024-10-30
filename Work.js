@@ -37,3 +37,8 @@ document.getElementById("redeem3").addEventListener("click", function() {
     count -= 1500;
     document.getElementById("counter").innerHTML = `Points: ${count}`;
 });
+
+document.getElementById("redeem4").addEventListener("click", function() {
+    count -= 2000;
+    document.getElementById("counter").innerHTML = `Points: ${count}`;
+});

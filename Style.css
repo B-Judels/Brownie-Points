@@ -13,20 +13,22 @@
     font-size: 24px;
 }
 
-.buttonsBox{
-    display: flex;
-    justify-content: left;
 
-}
 
 .btn {
-    background-color: brown;
+    background-color: #411900;
     width: 10%;
-    border: black, 2px, solid;
+    border: #FFFDD0, 2px, solid;
+    border-radius: 5px;
+    font: bold;
+    color: #FFFDD0;
+
 }
 
 .btn:hover{
-    background-color: aliceblue;
+    background-color: #FFFDD0;
+    color: #411900;
+    border: #411900, 2px, solid;
 }
 
 .ticketAligner{
@@ -39,8 +41,20 @@
 .redeemBox {
     border: black 2px solid;
     border-radius: 5px;
-    background-color: white;
+    background-color: beige;
     padding: 10px;
-    text-align: center;
     margin-top: 2px;
+    display: flex;
+    align-items: center; /* Vertically aligns items */
+    justify-content: space-between; /* Pushes the image to the right */
+    width: 95%; /* Ensure it takes full width */
+}
+
+
+
+
+.redeemerImage {
+    width: 20%;
+    height: auto;
+    margin-left: 10px; /* Adds space between the text/button and the image */
 }

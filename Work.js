@@ -3,4 +3,4 @@ let count = 0;
 
 
 
-document.getElementById("demo").innerHTML = count;
+document.getElementById("counter").innerHTML = `${count}`;

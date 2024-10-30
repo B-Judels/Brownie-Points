@@ -69,3 +69,9 @@
     color: #FFFDD0;
 
 }
+
+.btn2:hover{
+    background-color: #FFFDD0;
+    color: #411900;
+    border: #411900, 2px, solid;
+}
